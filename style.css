@@ -1,0 +1,239 @@
+/*
+Theme Name:     MusicAPI (Twenty Fourteen Child)
+Description:    Дочерняя тема для темы Twenty Fourteen 
+Author:         Leadmarketing
+Author URI:     http://leadmarketing.com.ua
+Template:       twentyfourteen
+Version:        0.1.0
+*/
+
+@import url("../twentyfourteen/style.css");
+
+aside[id^="html_share_button_widget"].widget {
+    margin-bottom: 35px;
+}
+
+.entry-title {
+    font-size: 20px;
+}
+
+.entry-content .zmshbt {
+    margin-top: 50px;
+    text-align: center;
+}
+
+div[class^="information-"] table {
+    border: none;
+}
+
+div[class^="information-"] table td {
+    border: none;
+}
+
+div[class^="information-"] table td:nth-child(odd) {
+    text-align: right;
+    font-style: italic;
+}
+
+div[class^="information-"] table td.date {
+    white-space: nowrap;
+}
+
+div[class^="preview-"] {
+    margin-bottom: 20px;
+}
+
+div[class^="download-"] {
+    margin-bottom: 5px;
+}
+
+div[class^="download-"] div a,
+div[class^="purchase-"] div a {
+    padding: 10px 30px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+div[class^="purchase-"] div {
+    width: 49%;
+    display: inline-block;
+}
+
+div[class^="purchase-"] div:nth-child(1) {
+    float: left;
+}
+
+div[class^="purchase-"] div:nth-child(2) {
+    float: right;
+}
+
+div.search-results div[class^="purchase-"] div {
+    width: auto;
+}
+
+div.search-results div[class^="purchase-"] div a {
+    padding: 10px 24px;
+}
+
+.socialshare-musicapi{
+	text-align: center;
+}
+
+.addtoany_list.a2a_kit_size_32 a {
+	display: inline-block;
+	margin: 20px 5px 0;
+}
+
+.a2a_svg { border-radius: 0 !important; }
+.addtoany_share_save_container { text-align:center; }
+
+.site,
+.site-header {
+    max-width: 100%;
+}
+.site-content .entry-header, 
+.site-content .entry-content, 
+.site-content .entry-summary, 
+.site-content .entry-meta,
+.page-content { /* Original max-width: 474px */  }
+
+body{
+    color: #f2f2f2;
+}
+
+.site, 
+.site-content .entry-meta,
+.site-content .entry-content, 
+.site-content .entry-summary, 
+.page-content,
+.site-content .entry-header{
+    background-color: #373737;
+    color: #f2f2f2;
+}
+
+.entry-meta a,
+.cat-links a,
+.entry-title a,
+.paging-navigation a,
+.post-navigation a{
+    color: #f2f2f2;
+}
+
+a,
+a:hover,
+a:active,
+.entry-meta a:hover,
+.cat-links a:hover,
+.entry-title a:hover,
+.site-navigation a:hover,
+.widget a:hover,
+.site-info a:hover,
+.paging-navigation a:hover,
+.post-navigation a:hover,
+.site-navigation .current_page_item > a, 
+.site-navigation .current_page_ancestor > a, 
+.site-navigation .current-menu-item > a, 
+.site-navigation .current-menu-ancestor > a {
+    color: #2bbfd5;
+}
+
+.entry-meta .tag-links a{
+    background-color: #f2f2f2;
+    color: #373737;
+}
+.entry-meta .tag-links a:before {
+    border-top: 10px solid transparent;
+    border-right: 8px solid #f2f2f2;
+    border-bottom: 10px solid transparent;
+}
+.entry-meta .tag-links a:after {
+    background-color: #373737;
+}
+.entry-meta .tag-links a:hover:before {
+    border-right-color: #2bbfd5;
+}
+.entry-meta .tag-links a:hover{
+    color: #f2f2f2;
+    background-color: #2bbfd5;
+}
+.search-toggle,
+.search-box,
+.button, 
+.button, 
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"],
+.widget_calendar tbody a{
+    background-color: #2bbfd5;
+}
+
+.search-toggle:hover, 
+.search-toggle.active,
+button:hover, 
+button:focus, 
+.button:hover, 
+.button:focus, 
+input[type="button"]:hover, 
+input[type="button"]:focus, 
+input[type="reset"]:hover, 
+input[type="reset"]:focus, 
+input[type="submit"]:hover, 
+input[type="submit"]:focus,
+.widget_calendar tbody a:hover{
+    background-color: #2bbfff;
+}
+
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current, 
+.widget .mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #2bbfd5;
+}
+
+.hentry .mejs-controls .mejs-button button:hover, 
+.widget .mejs-controls .mejs-button button:hover{
+    color: #2bbfd5;
+}
+
+.paging-navigation .page-numbers.current,
+.paging-navigation a:hover{
+    border-top: 5px solid #2bbfd5;
+}
+.nav-links{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.post-navigation a{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.post-navigation .meta-nav{
+    color: #ccc;
+}
+
+/* CONTACT FORM */
+
+.wpcf7-form{
+    max-width: 320px;
+    width: 100%;
+}
+
+.wpcf7-form textarea{
+    height: 112px;
+}
+
+/*----------------*/
+
+@media screen and (min-width: 401px){
+    .list-view .site-content .hentry {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}
+@media screen and (min-width: 783px){
+    .primary-navigation li:hover > a, 
+    .primary-navigation li.focus > a {
+        background-color: #2bbfd5;
+    }
+}
